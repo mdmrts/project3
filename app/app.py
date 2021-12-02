@@ -39,6 +39,6 @@ def bad_calc(value1,value2):
 def good_calc(value1,value2):
     """good calc Route Response"""
     my_tuple = (value1,value2)
-    Calculator.add_numbers(my_tuple)
+    Calculator.addition(my_tuple)
     response = "The result of the calculation is: " + str(Calculator.get_last_result_value()) + '<a href="/"> back</a>'
     return response

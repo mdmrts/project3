@@ -6,4 +6,4 @@ pycodestyle
 pytest-pylint
 pandas
 Flask
-uwsgi
+uWSGI
